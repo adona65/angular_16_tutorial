@@ -1,0 +1,9 @@
+<div *ngIf="optionnalInput==undefined; else optionnalePresent">OptionnalImport not defined by parent.</div>
+<ng-template #optionnalePresent>OptionnalImport retrieved from parent fglfmkgflk: {{optionnalInput}}.</ng-template>
+<br/>
+<div *ngIf="secondOptionnalInput==undefined; else secondOptionnalPresent">SecondOptionnalInput not defined by parent.</div>
+<ng-template #secondOptionnalPresent>SecondOptionnalInput retrieved from parent : {{secondOptionnalInput}}.</ng-template>
+<br/>
+<br/>
+Here is the value of requiredInput passed by parent: {{requiredInput}}.<br/>
+If no value would have been passed, we would have got an error at build time.

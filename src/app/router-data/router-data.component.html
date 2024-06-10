@@ -1,0 +1,23 @@
+<div class="content">
+  <p>
+    Angular 16 provide the ability to bind route parameters to the corresponding component’s inputs. Now we can pass the
+    below data to a routing component’s inputs:
+  </p>
+  <ul>
+    <li>Route data — resolvers and data properties</li>
+    <li>Path parameters</li>
+    <li>Query parameters</li>
+  </ul>
+  <p>
+    First of all, we need to activate it. In a standalone application, this is done by adding withComponentInputBinding()
+    to application's bootstrap configuration (watch <i style="color: green">main.ts</i> and <i style="color: green">app.config.ts</i> files).
+  </p><br/>
+  <img ngSrc="/assets/router-data-config.png" width="650" height="230">
+  <br/>
+  <p>
+    Once this is done, we can use <i style="color: green">@Input</i> to retrieve wanted data into component. Please watch code
+    both from routes definition (<i style="color: green">app.routes.ts</i>) and <i style="color: green">router-child-component</i>
+    for more details.
+  </p><br/>
+  <a href="/router-child/Angular%20is%20improving?queryParam=Parrot">Watch data retrieved as input from route.</a>
+</div>
