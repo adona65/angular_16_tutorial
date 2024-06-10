@@ -14,8 +14,3 @@ Contains tests and tutorials about angular 16.
 - https://angular.io
 - https://blog.angular.io
 - https://goo.gle/angular-v16
-
-
-TODO :
-https://angular.io/guide/update-to-version-16
-https://blog.angular.io/angular-v16-is-here-4d7a28ec680d
